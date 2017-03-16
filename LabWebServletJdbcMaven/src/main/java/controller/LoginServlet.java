@@ -16,7 +16,7 @@ import model.CustomerService;
 @WebServlet(
 		urlPatterns={"/secure/login.controller"}		
 )
-//0316加入註解
+
 public class LoginServlet extends HttpServlet {
 	private CustomerService service;
 	@Override

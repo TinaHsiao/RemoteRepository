@@ -19,7 +19,7 @@ import model.ProductService;
 @WebServlet(
 		urlPatterns={"/pages/product.controller"}		
 )
-//0316加入註解
+
 public class ProductServlet extends HttpServlet {
 	private SimpleDateFormat sFormat = new SimpleDateFormat("yyyy-MM-dd");
 	private ProductService service;
